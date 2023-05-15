@@ -2,9 +2,7 @@
 using FluxoCaixa.Application.Features.FluxoCaixa.Command.DeleteFluxoCaixaById;
 using FluxoCaixa.Application.Features.FluxoCaixa.Command.UpdateFluxoCaixa;
 using FluxoCaixa.Application.Features.FluxoCaixa.Queries.GetAllFluxoCaixa;
-using FluxoCaixa.Application.Features.FluxoCaixa.Queries.GetSaldoDiario;
 using MediatR;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FluxoCaixa.Api.Controllers

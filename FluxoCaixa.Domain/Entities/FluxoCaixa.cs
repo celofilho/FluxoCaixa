@@ -10,6 +10,21 @@ namespace FluxoCaixa.Domain.Entities
 {
     public class FluxoCaixa
     {
+        public FluxoCaixa()
+        {
+        }
+
+        public FluxoCaixa(Guid id, string descricao, decimal credito, decimal debito, decimal saldo, DateTime data)
+        {
+            Id = id;
+            Descricao = descricao;
+            Credito = credito;
+            Debito = debito;
+            Saldo = saldo;
+            Data = data;
+        }
+
+
         [Key]
         public Guid Id { get; set; }
         [Required]

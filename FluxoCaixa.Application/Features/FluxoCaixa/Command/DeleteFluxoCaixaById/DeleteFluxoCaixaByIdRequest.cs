@@ -4,6 +4,11 @@ namespace FluxoCaixa.Application.Features.FluxoCaixa.Command.DeleteFluxoCaixaByI
 {
     public class DeleteFluxoCaixaByIdRequest : IRequest<System.Guid>
     {
+        public DeleteFluxoCaixaByIdRequest(Guid id)
+        {
+            Id = id;
+        }
+
         public Guid Id { get; set; }
     }
 }

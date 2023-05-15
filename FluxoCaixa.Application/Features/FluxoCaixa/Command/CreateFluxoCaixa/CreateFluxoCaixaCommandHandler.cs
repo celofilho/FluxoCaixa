@@ -1,12 +1,6 @@
 ﻿using AutoMapper;
 using FluxoCaixa.Application.Context;
-using FluxoCaixa.Domain.Entities;
 using MediatR;
-using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
-using System.Security.Cryptography.X509Certificates;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace FluxoCaixa.Application.Features.FluxoCaixa.Command.CreateFluxoCaixa
 {

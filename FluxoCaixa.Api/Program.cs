@@ -2,9 +2,7 @@ using FluxoCaixa.Application;
 using FluxoCaixa.Application.Common;
 using FluxoCaixa.Infrastructure;
 using FluxoCaixa.Infrastructure.Context;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
-using System;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
